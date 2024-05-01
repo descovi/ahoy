@@ -30,7 +30,7 @@ module Ahoy
     # for importmap
     initializer "ahoy.importmap" do |app|
       if defined?(Importmap)
-        app.config.assets.precompile << "ahoy.js"
+        #app.config.assets.precompile << "ahoy.js"
       end
     end
   end
